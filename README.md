@@ -39,8 +39,7 @@ El proyecto está construido con **programación estructurada**: la lógica se o
 
 1. Clonar el repositorio:
    ```bash
-   git clone https://github.com/USUARIO/jaguarcito-uam.git
-   ```
+   git clone https://github.com/Trez-Zero/ProyectoFinal.git
 2. Abrir Visual Studio 2026.
 3. Seleccionar **Abrir un proyecto o una solución** y elegir el archivo `.sln` del repositorio (o abrir la carpeta del proyecto).
 4. Asegurarse de que el proyecto compile con .NET 10.0.
@@ -50,8 +49,10 @@ El proyecto está construido con **programación estructurada**: la lógica se o
 
 1. Clonar el repositorio:
    ```bash
-   git clone https://github.com/USUARIO/jaguarcito-uam.git
-   cd jaguarcito-uam
+   git clone https://github.com/Trez-Zero/ProyectoFinal.git
+   cd ProyectoFinal
+   cd JaguarUAM
+   cd JaguarUAM
    ```
 2. Compilar y ejecutar:
    ```bash
@@ -68,20 +69,28 @@ Desde el menú principal el jugador puede explorar la zona actual, ver las estad
 
 ---
 
-## Estructura del proyecto
+## Estructura del codigo
 
 ```
-JaguarUAM/
-│
-├── README.md                  # Este archivo
-│
-└── JaguarUAM/                 # Carpeta de la solución
-    │
-    ├── JaguarUAM/             # Proyecto principal
-    │   ├── Program.cs         # Código fuente completo del juego
-    │   └── JaguarUAM.csproj   # Archivo de configuración del proyecto .NET
-    │
-    └── JaguarUAM.sln          # Solución de Visual Studio
+Main()
+ ├── InicializarEnemigos()
+ ├── InicializarZonas()
+ ├── InicializarJaguar()
+ └── BucleJuego()
+      ├── MostrarMenuPrincipal()
+      ├── ExplorarZona()
+      │    ├── EventoExploracion()
+      │    └── IniciarCombate()
+      │         ├── MostrarPanelCombate()
+      │         ├── EjecutarHabilidad()
+      │         ├── UsarObjeto()
+      │         ├── AccionEspecialEnemigo()
+      │         └── GanarExp()
+      │              └── SubirNivel()
+      ├── MostrarStats()
+      ├── MostrarMapa()
+      ├── GuardarProgreso()
+      └── CargarProgreso()
 ```
 
 ### Organización interna de `Program.cs`
