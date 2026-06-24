@@ -1,7 +1,6 @@
 // ============================================================================
 //  ERVIN ROCHA - MODULO EXPLORACION Y FLUJO DEL JUEGO
 //  Contiene bucle principal, exploracion de zonas y eventos aleatorios.
-//  NOTA: Este codigo es una parte del Program.cs final.
 // ============================================================================
 
         //  MODULO JUEGO: Flujo, navegacion y eventos
