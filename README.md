@@ -39,8 +39,7 @@ El proyecto está construido con **programación estructurada**: la lógica se o
 
 1. Clonar el repositorio:
    ```bash
-   git clone https://github.com/USUARIO/jaguarcito-uam.git](https://github.com/Trez-Zero/ProyectoFinal.git
-   ```
+   git clone https://github.com/Trez-Zero/ProyectoFinal.git
 2. Abrir Visual Studio 2026.
 3. Seleccionar **Abrir un proyecto o una solución** y elegir el archivo `.sln` del repositorio (o abrir la carpeta del proyecto).
 4. Asegurarse de que el proyecto compile con .NET 10.0.
@@ -50,7 +49,7 @@ El proyecto está construido con **programación estructurada**: la lógica se o
 
 1. Clonar el repositorio:
    ```bash
-   git clone https://github.com/USUARIO/jaguarcito-uam.git](https://github.com/Trez-Zero/ProyectoFinal.git
+   git clone https://github.com/Trez-Zero/ProyectoFinal.git
    cd ProyectoFinal
    cd JaguarUAM
    cd JaguarUAM
