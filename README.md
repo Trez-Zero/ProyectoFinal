@@ -68,20 +68,28 @@ Desde el menú principal el jugador puede explorar la zona actual, ver las estad
 
 ---
 
-## Estructura del proyecto
+## Estructura del codigo
 
 ```
-JaguarUAM/
-│
-├── README.md                  # Este archivo
-│
-└── JaguarUAM/                 # Carpeta de la solución
-    │
-    ├── JaguarUAM/             # Proyecto principal
-    │   ├── Program.cs         # Código fuente completo del juego
-    │   └── JaguarUAM.csproj   # Archivo de configuración del proyecto .NET
-    │
-    └── JaguarUAM.sln          # Solución de Visual Studio
+Main()
+ ├── InicializarEnemigos()
+ ├── InicializarZonas()
+ ├── InicializarJaguar()
+ └── BucleJuego()
+      ├── MostrarMenuPrincipal()
+      ├── ExplorarZona()
+      │    ├── EventoExploracion()
+      │    └── IniciarCombate()
+      │         ├── MostrarPanelCombate()
+      │         ├── EjecutarHabilidad()
+      │         ├── UsarObjeto()
+      │         ├── AccionEspecialEnemigo()
+      │         └── GanarExp()
+      │              └── SubirNivel()
+      ├── MostrarStats()
+      ├── MostrarMapa()
+      ├── GuardarProgreso()
+      └── CargarProgreso()
 ```
 
 ### Organización interna de `Program.cs`
